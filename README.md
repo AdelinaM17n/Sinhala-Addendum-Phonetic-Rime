@@ -10,7 +10,7 @@ Rime port of the Sinhala-Addendum-Phonetic transliteration scheme based input me
 As Rime is targetted at chinese speakers, rime will register itself as a chinese IME in the language, while this is mostly inconsequential, this can cause
 compatibility issues with some apps like Notepad or OpenOffice.  
     
-In the future I plan to create an installer that automatically handles this, but for the time being you'll have to either run `scripts/weasel-sinhala.reg` file or manually edit the registry for this.
+In the future I plan to create an installer that automatically handles this, but for the time being you'll have to either run the `scripts/weasel-sinhala.reg` file or manually edit the registry for this.
 - Open RegEdit and navigate to `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{A3F4CDED-B1E9-41EE-9CA6-7B4D0DE6CB0A}\LanguageProfile\0x00000404\{3D02CAB6-2B8E-4781-BA20-1C9267529467}]`
 - Find the entry there which is enabled, which by default should be the entry under the simplified chinese language code (804)
 ![image](https://github.com/user-attachments/assets/9fbb7384-840f-497c-9707-1c4233d7a9c5)
