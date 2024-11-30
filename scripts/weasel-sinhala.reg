@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{A3F4CDED-B1E9-41EE-9CA6-7B4D0DE6CB0A}\LanguageProfile\0x00000405b\{3D02CAB6-2B8E-4781-BA20-1C9267529467}]
+
+"Description"="Weasel"
+"Enable"=dword:00000001
+"IconFile"="C:\WINDOWS\system32\weasel.dll"
+"IconIndex"=dword:00000000
