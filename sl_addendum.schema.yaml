@@ -43,6 +43,10 @@ ascii_composer:
 menu:
   alternative_select_keys: '1234567890'
 
+editor:
+  bindings:
+    Return: confirm
+
 speller:
   alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
   delimiter: ''
