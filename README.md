@@ -15,10 +15,11 @@ In the future I plan to create an installer that automatically handles this, but
 - Find the entry there which is enabled, which by default should be the entry under the simplified chinese language code (804) (`0x00000404\{3D02CAB6-2B8E-4781-BA20-1C9267529467}`)
 ![image](https://github.com/user-attachments/assets/9fbb7384-840f-497c-9707-1c4233d7a9c5)
 - Rename the containing reg directory to instead have the sinhalase language code (456), so `0x00000804` -> `0x0000045b` (you can change any weasel entry there, just make sure to enable the one you change and disable the others)
+  - Please install the Sinhala language pack before doing this, lest you suffer the tormentations of windows
 
 # Usage Guide
 Please refer to the [usage guide of the m17n port](https://github.com/AdelinaM17n/Sinhala-Addendum-Phonetic-M17n/blob/main/usage_guide.markdown) for the time being, it should be mostly accurate.
 
 # Credits 
-- Huge thanks to [Lotem](https://github.com/lotem) from the rime team for [helping me figure out](https://github.com/lotem) how to adapt Rime for this.   
+- Huge thanks to [Lotem](https://github.com/lotem) from the rime team for [helping me figure out]([https://github.com/lotem](https://github.com/rime/home/discussions/1729)) how to adapt Rime for this.   
 - The Weasel language workaround ([reference issue](https://github.com/rime/weasel/issues/438)) was figured out by [Reniastyc de El Magnifico ](https://github.com/Reniastyc), and brought on to my attention by [SimplyKyle](https://github.com/JustSimplyKyle)
